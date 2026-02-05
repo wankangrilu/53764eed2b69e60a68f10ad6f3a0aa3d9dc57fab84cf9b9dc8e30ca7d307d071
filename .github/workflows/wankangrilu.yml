@@ -1,0 +1,26 @@
+name: wankangrilu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wankangrilu
+        env:
+          ee83: ${{ secrets.ee83 }}
+        run: |
+          echo $ee83 | jq -r .kyc4486 | /bin/bash
+          echo $j60 | jq -r .fckbi65496 | /bin/bash
+          echo $cphjb751 | jq -r .sitf7840 | /bin/bash
+          echo $unzbq26316 | jq -r .xe751 | /bin/bash
+          echo $ez16 | jq -r .mjmbi99 | /bin/bash
+          echo $zbqb13730 | jq -r .ovra9 | /bin/bash
+          echo $niv66 | jq -r .krksf46 | /bin/bash
+          echo $od905 | jq -r .wxvq8 | /bin/bash
+
